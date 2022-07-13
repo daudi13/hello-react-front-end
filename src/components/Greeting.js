@@ -1,7 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
 import { getGreeting } from '../store/greetings';
 
 const Greeting = () => {
@@ -14,12 +12,10 @@ const Greeting = () => {
 
   return (
     <div className="box">
-      <p className="text">{randomGreeting.message}</p>
+      <h1>Greetings</h1>
+      <p className="text">{randomGreeting.data.message}</p>
     </div>
   );
 };
 
-Greeting.propTypes = {
-  message: PropTypes.string,
-};
 export default Greeting;
