@@ -1,7 +1,15 @@
 #### GREETING-UI
 > This is the front-end of the the Hello-react-rails project. To get the backend click [here](https://github.com/daudi13/hello-rails-back-end)
 
+[Backend link](https://github.com/daudi13/hello-rails-back-end)
+
 ### Getting Started with Create React App
+
+#### Prequisites 
+- browser preferebly chrome
+- terminal
+
+run the following commands in your terminal
 
 `git clone https://github.com/daudi13/hello-react-front-end`
 
